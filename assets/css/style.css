@@ -49,6 +49,7 @@ body {
 /* Main */
 main {
     background-color: #000000;
+    padding-bottom: 80px;
 }
 
 /* Seccion quienes somos*/
@@ -75,4 +76,35 @@ h1 {
 }
 .color-parrafo {
     color: #ffffff;
+}
+#seccion-quienes-somos {
+    padding-bottom: 100px;
+}
+
+/* Bloque Card Destacados */
+.centrado-titulo {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card img {
+    height: 169px;
+}
+.card-title {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.card-text {
+    font-size: 15px;
+}
+.card-body {
+    background-color: #17a3b8;
+    color: #ffffff;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 400;
 }
