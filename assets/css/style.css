@@ -45,7 +45,9 @@ body {
   top: 0px; */
 }
 
-
+body {
+    background-color: #000000;
+}
 /* Main */
 main {
     background-color: #000000;
@@ -53,6 +55,9 @@ main {
 }
 
 /* Seccion quienes somos*/
+#seccion-quienes-somos { 
+    padding-bottom: 100px;
+}
 h1 {
     color: #ffffff;
     text-align: center;
@@ -78,14 +83,16 @@ h1 {
     color: #ffffff;
 }
 #seccion-quienes-somos {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 /* Bloque Card Destacados */
+#destacados {
+    padding-bottom: 70px;
+}
 .centrado-titulo {
     color: #ffffff;
     text-align: center;
-    padding-top: 40px;
     font-size: 30px;
 }
 .card {
@@ -108,3 +115,11 @@ h1 {
     font-family: 'Encode Sans SC', sans-serif;
     font-weight: 400;
 }
+.titulo-contacto {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/**/
