@@ -16,6 +16,12 @@ Regular 400
 Semi-bold 600
 
 */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.limpiar {
+    clear: both;
+}
 
 /* Barra de Navegación*/
 .logo {
@@ -31,9 +37,42 @@ Semi-bold 600
     font-weight: 400;
 
 }
-.nav-link a {
-   
-    
+
+/* Carousel */
+#carouselExampleControls {
+  margin-top: -59px;
+  /* position: absolute;
+  top: 0px; */
 }
 
-/* Carousel*/
+
+/* Main */
+main {
+    background-color: #000000;
+}
+
+/* Seccion quienes somos*/
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.borde-azul {   
+    border: 1px solid#0b616d;
+    margin-bottom: 40px;
+}
+.bloque-celeste {
+    background-color: #17a3b8;
+    text-align: center;
+    padding: 4px;
+    
+}
+.icono-blanco {
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+.color-parrafo {
+    color: #ffffff;
+}
