@@ -122,4 +122,29 @@ h1 {
 }
 
 
-/**/
+/*Footer*/
+#footer {
+    background-color: #17a3b8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.txt-footer {
+    font-size: 20px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: center;
+    
+}
+#footer .contenedor-iconos-footer {
+    text-align: center;
+}
+#footer .contenedor-iconos-footer i {
+    font-size: 25px;
+    margin-top: 4px;
+    margin-right: 10px;
+
+}
+#footer .contenedor-iconos-footer a{
+    color: #ffffff;
+}
