@@ -26,3 +26,14 @@ Semi-bold 600
     width: 30px;
     margin-right: 10px;
 }
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.nav-link a {
+   
+    
+}
+
+/* Carousel*/
