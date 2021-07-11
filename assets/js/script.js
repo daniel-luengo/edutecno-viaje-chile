@@ -12,5 +12,18 @@
             }, 800)
 
         });
+
+
+
+
+        /* Habilitamos los tooltips */
+        $('[data-toggle="tooltip"]').tooltip()
+
+
+        /* Activamos modales*/
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+          })
     
     }) 
+    

@@ -72,6 +72,7 @@ h1 {
     background-color: #17a3b8;
     text-align: center;
     padding: 4px;
+    border-radius: 0px;
     
 }
 .icono-blanco {
@@ -100,6 +101,7 @@ h1 {
 }
 .card img {
     height: 169px;
+    cursor: pointer;
 }
 .card-title {
     font-weight: 600;
@@ -147,4 +149,9 @@ h1 {
 }
 #footer .contenedor-iconos-footer a{
     color: #ffffff;
+}
+
+/* Modales */
+.btn-cerrar {
+    background-color: #17a3b8;
 }
